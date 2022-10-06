@@ -1,0 +1,20 @@
+[package]
+name = "agent"
+version = "0.1.0"
+edition = "2018"
+authors = ["Fintan Halpenny <fintan.halpenny@gmail.com>", "Pierre-Étienne Meunier <pe@pijul.org>"]
+description = "SSH agent client and server"
+repository = "https://github.com/radicle-dev/radicle-ssh"
+keywords = ["ssh"]
+license = "Apache-2.0"
+
+[features]
+default = []
+
+[dependencies]
+cryptovec = { version =  "0.6.0", path = "../cryptovec" }
+encoding = { version = "0.1", path = "../encoding" }
+byteorder = "1.4"
+data-encoding = "2.3"
+log = "0.4"
+thiserror = "1.0"

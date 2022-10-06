@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+  "cryptovec",
+  "agent",
+  "encoding",
+]
+
+[patch.crates-io]
+cryptovec = { path = "cryptovec" }
+agent = { path = "agent" }
+encoding = { path = "encoding" }

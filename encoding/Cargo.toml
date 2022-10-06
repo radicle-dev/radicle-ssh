@@ -1,0 +1,14 @@
+[package]
+name = "encoding"
+version = "0.1.0"
+edition = "2018"
+authors = ["Fintan Halpenny <fintan.halpenny@gmail.com>", "Pierre-Étienne Meunier <pe@pijul.org>"]
+description = "Encoding primitives"
+repository = "https://github.com/radicle-dev/radicle-ssh"
+keywords = ["ssh"]
+license = "Apache-2.0"
+
+[dependencies]
+cryptovec = { version = "0.6.0", path = "../cryptovec" }
+byteorder = "1.4"
+thiserror = "1.0"
