@@ -44,6 +44,9 @@ pub enum Error {
 
     #[error(transparent)]
     Signature(Box<dyn std::error::Error + Send + Sync + 'static>),
+
+    #[error("Poison error when locking mutex")]
+    PoisonError,
 }
 
 /// SSH agent client.
